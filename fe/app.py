@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 import os
 
-BACKEND_URL = os.getenv("BE_SERVER_URL")
+BACKEND_URL = os.getenv("BACKEND_URL")
+st.write("Backend URL:", BACKEND_URL)
 
 st.set_page_config(
     page_title="AI Content Generator",
